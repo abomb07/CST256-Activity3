@@ -33,4 +33,4 @@ Route::get('/login3', function() {
     return view('login3');
 });
     
-    Route::post('dologin3', 'Login3Controller@index');
+Route::post('dologin3', 'Login3Controller@index');
